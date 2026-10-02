@@ -34,6 +34,7 @@ body ul {
 }
 
 .about-image img {
+    margin: 0;
     justify-self: end;
     width: 100%;
     max-width: 180px;
