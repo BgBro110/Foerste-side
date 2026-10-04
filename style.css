@@ -120,6 +120,10 @@ nav a.active {
     padding: 0 1rem;
 }
 
+.cv-page h2, .cv-page h1 {
+    color: var(--secondary-color);
+}
+
 .cv-sidebar {
     display: flex;
     flex-direction: column;
