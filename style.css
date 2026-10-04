@@ -2,6 +2,7 @@
     --background-color: #1e2129;
     --primary-color: #85888f;
     --secondary-color: #9a9fd0;
+    --tetriary-color: #5e6b89;
 }
 
 body {
@@ -99,10 +100,6 @@ nav a {
 
 nav a:hover {
     background: #1976d275;
-}
-
-nav a.active {
-    background: #1976d2;
 }
 
 @media (max-width: 700px){
@@ -245,6 +242,15 @@ nav a.active {
 .project-info h2 {
     color: var(--secondary-color);
     text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover {
+    background: #2d3347;
+}
+
+.tech-list li{
+    color: var(--tetriary-color);
     font-weight: bold;
 }
 
