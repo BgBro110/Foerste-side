@@ -105,3 +105,53 @@ nav a.active {
         order: -1;
     }
 }
+
+
+.cv-page {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.cv-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background: var(--background-color);
+    padding: 1.5rem;
+}
+
+.cv-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.cv-content {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.cv-section {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+
+@media (max-width: 768px) {
+    .cv-page {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-sidebar,
+    .cv-content {
+        padding: 0 1rem;
+    }
+}

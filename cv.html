@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petar</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -19,16 +19,49 @@
         </nav>
     </header>
 
-    <h1>My CV</h1>
-    <p>Hello, I'm a simple web developer!</p>
-    <p><a href="index.html">Back to Home</a></p>
+    <main class="cv-page" >
+        <aside class="cv-sidebar">
+            <img src="img/Car-Phone.jpg" alt="Profile picture" class="cv-photo">
+            <h1>Petar</h1>
+            <p>Software Engineer student</p>
 
-    <footer>
-        <h1>Contact Information</h1>
-        <p>Email: pikachu@pokemon.com</p>
-        <p>Phone: 67 42 00 69</p>
-    </footer>
+            <section>
+                <h2>Contact Information</h2>
+                <p>Email: petar@example.com</p>
+                <p>Phone: +45 23 56 89 42</p>
+                <p>Location: Horsens, Denmark</p>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                </ul>
+            </section>
+        </aside>
 
+        <section class="cv-content">
+            <article class="cv-section">
+                <h2>Summary</h2>
+                <p>I am a passionate software engineering student with a strong foundation in programming and problem-solving. I am eager to contribute to innovative projects and continue growing as a professional.</p>
+            </article>
+
+            <article class="cv-section">
+                <h2>Work Experience</h2>
+                <h3>Job Title</h3>
+                <p>Company</p>
+                <ul>
+                    <li>Responsibility 1</li>
+                    <li>Responsibility 2</li>
+                </ul>
+            </article>
+
+            <article class="cv-section">
+                <h2>Education</h2>
+                <h3>VIA / Software Engineering Bachelor</h3>
+                <p>Dates: 2026 - Present</p>
+            </article>
+        </section>
+    </main>
 </body>
-
 </html>
